@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <div class="bg-blue-500 text-red-500 p-4 font-bold">
+  Hello
+</div>
+
+<div class="bg-red-300 text-white-500 w-32 p-3 rounded-xl w-full h-screen md:bg-black" >
+  Card Content
+</div>
+
+<div class="bg-white p-2 rounded-lg w-100% text-center ">
+  Profile Card
+</div>
+<!-- 
+Tracking-tight/normal/wide/wider (letter spacing)
+-->
+<div class="bg-blue-400 text-white p-8 hover:bg-blue-600 tracking-tight">
+  Profile 2
+</div>
+<!-- 
+focus:bg-red-500 -- <input class="border focus:bg-blue-500"> -- used with input
+active:scale-95 -- <button class="active:scale-95"> -- used with button 
+md:w-64
+lg:text-xl -->
+
+
+<h1 class="text-sm lg:text-xl border-2 border-black">HI</h1>
+
+<!-- Basically sl is small screen , md is med screen and l is largen screen. these convention can also be used with h1 tags -->
+
+<!-- w-full , w-100% , h-auto , h-screen-->
+
+<!-- Padding and margin :
+ they can be p-4 or m-4 -- means all sides
+ if we wanna specify:
+ pt , pl , pr , pb (top , left , right, bottom ) or px and py (x,y axis);
+ 
+ can also be mx-auto -- center horizontally -->
+
+ <!-- Class	Meaning
+text-sm	small
+text-base	normal
+text-lg	large
+text-xl	extra large
+text-2xl	bigger
+text-4xl	huge  -->
+
+
+<div class="flex justify-end items-center h-screen">
+    <h1>Hello hi </h1>
+</div>
+
+<!-- For arbritary values use [] eg: w-[35] -->
+
+<button class="bg-blue-200 hover:bg-blue-500 hover:rotate-45 hover:-translate-y-8 transition duration-300">Submit</button>
+
+<button class="bg-red-600 hover:scale-[1.5] transition duration-300">check1</button>
+
+</body>
+</html>
