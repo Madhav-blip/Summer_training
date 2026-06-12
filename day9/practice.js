@@ -106,3 +106,4 @@ console.log(sum)
 
 const evennum=red.filter((num)=>num%2===0)
 console.log(evennum)
+// filter returns a new array but map doesnt 
